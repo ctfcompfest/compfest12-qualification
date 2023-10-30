@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{forumtopic.topicTitle}}{% endblock %}
+{% block content %}
+<div class="viewbox">
+    <h2>{{forumtopic.topicTitle}}</h2>
+    <ul>
+        {% for text in forumtopic.forumtext_set.all %}
+        <li>
+            <div class="forumpost">
+                <div class="posthead">
+                    <h3>{{text.textTitle}}</h3>
+                    <p>By {{ text.user.username }}</p>
+                </div>
+                <p>
+                    {% autoescape off %}
+                    {{text.forumText }}
+                    {% endautoescape %}
+                </p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="forumform">
+    <form action="{% url 'writeForum' forumtopic.id %}" method="POST">
+        <h3>Write your opinion!</h3>
+        {% csrf_token %}
+        <label for="title">Subject:</label>
+        <input type="text" name="title" value="Re: {{forumtopic.topicTitle}}" size="25"required><br>
+        <label for="forumText">Contents:</label><br>
+        <textarea type="text" name="forumText" rows="10" cols="80" required></textarea><br>
+        <input type="submit">
+    </form>
+</div>
+{% endblock %}
+

@@ -1,0 +1,34 @@
+FROM python:3.8-alpine3.11
+
+RUN apk update && apk add --update alpine-sdk busybox-initscripts
+
+COPY requirements.txt /
+RUN pip install --no-cache-dir -r /requirements.txt
+
+RUN mkdir -p ## app_folder ##
+WORKDIR ## app_folder ##
+
+RUN mkdir -p ## public_folder ##/uploads
+COPY web ## public_folder ##
+RUN chmod -R 444 ## public_folder ##/**/**
+RUN chmod -R 777 ## public_folder ##/uploads
+
+COPY web ./
+RUN chmod -R 555 ./
+
+COPY env.yml env.yml
+RUN chmod 777 env.yml
+
+COPY ## flag_filename ## /
+COPY ## rsakey_filename ## /
+RUN chmod 444 /## flag_filename ## /## rsakey_filename ##
+
+RUN chown root /proc/self/environ
+RUN chgrp root /proc/self/environ
+
+RUN adduser ## nonroot_user ## --disabled-password
+USER ## nonroot_user ##
+
+EXPOSE 2727
+
+ENTRYPOINT [ "python3", "main.py" ]

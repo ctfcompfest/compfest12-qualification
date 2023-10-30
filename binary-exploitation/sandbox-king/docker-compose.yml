@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+    sandbox_king:
+        build: .
+        restart: always
+        ports:
+          - 2001:1337
+        volumes:
+          - ./xinetd:/etc/xinetd.d/sandbox_king:ro
+        cap_add:
+          - SYS_PTRACE
+        security_opt:
+          - seccomp:unconfined

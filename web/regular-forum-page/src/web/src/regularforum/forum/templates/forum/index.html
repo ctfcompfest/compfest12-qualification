@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+<div class="forumlistbox">
+    <h2>Forums:</h2>
+    <table>
+        <tbody>
+            {% for forum in forums %}
+            <tr>
+                <td><a href="{% url 'viewForum' forum.id %}">{{ forum.topicTitle }}</a></td>
+                <td>{{ forum.user }}</td>
+                <td>{{ forum.pub_date }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="createforum"><a href="{% url 'createForum' %}">create new</a></div>
+</div>
+{% else %}
+<h2>Welcome to Regular Forums!</h2>
+<p>Create forums and invite your friends to discuss</p>
+<p>Moderators may look on your forum to make sure that your forums are safe</p>
+<p>Please, login or signup to use this forum.</p>
+{% endif %}
+{% endblock %}

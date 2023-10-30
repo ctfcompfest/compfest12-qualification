@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block title %}
+CodeBackup
+{% endblock %}
+
+{% block body %}
+<div class="card">
+    <div class="card-body">
+        Your identifier: {{ id }}
+    </div>
+</div>
+<br/>
+<div class="card">
+    <form class="card-body" method="POST" action="/upload" enctype="multipart/form-data">
+        <h5 class="card-title">Upload here!</h5>
+        <input type="file" name="file"> 
+        <input type="submit" value="Upload (max. 1 KB)" class="btn btn-primary">    
+    </form>
+</div>
+<br/>
+<div class="row">
+    <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Storage</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ dir['size'] }} Bytes of 1024 Bytes used</h6>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: {{ dir['size'] * 100 / 1024 }}%" aria-valuenow="{{ dir['size'] }}" aria-valuemin="0" aria-valuemax="1024"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">File</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ dir['num_file'] }} of 110 file uploaded</h6>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: {{ dir['num_file'] * 100 / 110 }}%" aria-valuenow="{{ dir['num_file'] }}" aria-valuemin="0" aria-valuemax="110"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col" width="53%">Name</th>
+        <th scope="col" width="25%">Uploaded</th>
+        <th scope="col" width="15%">File size</th>
+        <th scope="col" width="7%"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>welcome.txt</td>
+        <td>-</td>
+        <td>53 Bytes</td>
+        <td><a href="viewer?file=welcome.txt" target="_blank">view</a></td>
+      </tr>  
+    </tbody>
+</table>
+{% if dir['num_file'] > 1 %}
+<div class="text-center">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">loading...</span>
+    </div><br/>
+    <span>It will takes forever</span>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "2700:8000"
+    volumes:
+      - ./web/nopass_login:/opt/nopass_login/nopass_login:ro

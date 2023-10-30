@@ -1,0 +1,11 @@
+[
+  {
+    "model": "nopass_login.account",
+    "pk": 1,
+    "fields": {
+      "token": "COMPFEST12{eZsQLi_4s_usUaL__20334eff}",
+      "username": "admin",
+      "is_admin": true
+    }
+  }
+]

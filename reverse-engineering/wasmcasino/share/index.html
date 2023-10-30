@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Casino</title>
+        <script>
+            function log_to_console(value)
+            {
+              console.log(value);
+            };
+            function money(value) 
+            {
+                document.getElementById("money").innerHTML = "$" + value;
+            }
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <h3>MONEY</h3>
+            <p id="money"></p>
+        </div>
+        <div align="center">
+            <h3>BID</h3>
+            <div>
+                <input type="text" id="val" name="val">
+            </div>
+            <div>
+                <button onclick="log_to_console(document.getElementById('val').value)">Submit</button>
+            </div>
+                
+            <p id="output">
+            </p>
+            
+        </div>
+        
+        <script>
+            var Module = {
+                print: (function() {
+                    var element = document.getElementById('output');
+                    return function(text) {
+                        element.innerHTML += text + "<br>";
+                    };
+                })(),
+                printErr: function(text) {
+                        if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+                        if (0) {
+                            dump(text + '\n');
+                        }
+                }
+            };
+        </script>
+        <script async type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
+
+

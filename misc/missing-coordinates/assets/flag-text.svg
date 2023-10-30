@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10in"
+   height="10in"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (b51213c273, 2020-08-10)"
+   sodipodi:docname="flag-text.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint8_linear"
+       x1="55.5"
+       y1="22.5"
+       x2="414.319"
+       y2="52.052799"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#49AB64"
+         id="stop1854" />
+      <stop
+         offset="0.349023"
+         stop-color="#DC7929"
+         id="stop1856" />
+      <stop
+         offset="0.612536"
+         stop-color="#E72836"
+         id="stop1858" />
+      <stop
+         offset="1"
+         stop-color="#7723BC"
+         id="stop1860" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32"
+     inkscape:cx="1218.3586"
+     inkscape:cy="443.89382"
+     inkscape:document-units="in"
+     inkscape:current-layer="flag"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="in"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     width="10in" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Here is the flag"
+     inkscape:groupmode="layer"
+     id="flag">
+    <path
+       id="rect19342"
+       style="fill:#ffffff;stroke-width:0.781495"
+       d="M 0,0 H 499.99997 V 500 H 0 Z" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 79.296203,475.68279 c -4.774402,0.0713 -9.540756,-0.41263 -14.201829,-1.44072 -7.459297,-2.02365 -14.411929,-5.56602 -20.414424,-10.40238 -8.092814,-6.2678 -14.633962,-14.28668 -19.123587,-23.44533 -3.436173,-7.52331 -4.986513,-15.75901 -4.518687,-24.00527 0.108297,-2.69751 0.486058,-5.37835 1.12958,-8.00151 0.173641,-0.7064 0.160847,-1.44625 -0.03656,-2.14685 -0.197859,-0.70169 -0.574157,-1.33914 -1.092704,-1.85398 -6.985167,-9.95511 -13.396861,-20.29365 -19.20433,-30.96732 -0.368301,-0.51379 -0.566069,-1.12981 -0.566069,-1.76035 0,-0.63032 0.197859,-1.24565 0.566069,-1.76036 3.266827,-5.19378 6.879017,-10.16577 10.812488,-14.88323 3.469713,-4.16066 7.100821,-8.00151 10.893232,-12.00234 l 1.210369,-1.20045 c 1.452416,-1.36016 2.420738,-1.84027 3.953851,0 7.584822,11.20268 16.138013,21.76494 24.207065,32.00679 6.939379,8.4023 14.281926,16.56366 21.705582,24.64578 7.423654,8.08203 14.362894,15.12345 21.867024,22.24492 9.924817,9.52211 20.172967,18.64425 30.985407,27.12634 8.71445,6.88112 17.50946,13.44315 26.70837,19.52446 1.12976,0.71952 0.80702,1.12026 0,1.84028 -8.80927,9.50177 -18.72294,17.9357 -29.53287,25.12576 -0.30387,0.21979 -0.67148,0.33997 -1.0487,0.33997 -0.37744,0 -0.7445,-0.1188 -1.04929,-0.33997 -10.01644,-5.61678 -19.68915,-11.81586 -28.967337,-18.56432 -1.03499,-1.02874 -2.33328,-1.75848 -3.75485,-2.11098 -1.42153,-0.35185 -2.91306,-0.31392 -4.31416,0.10693 -1.48166,0.36053 -2.99485,0.57443 -4.51864,0.64101 0.0809,1.28037 -0.88767,0.88004 -1.69469,1.28037 z"
+       fill="url(#paint8_linear)"
+       style="mix-blend-mode:normal;fill:#1e1e1e;fill-opacity:1;stroke-width:0.520836"
+       id="path1776" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 494.36733,182.89682 C 486.12486,136.84243 462.71303,94.798721 427.79812,63.350082 387.84428,25.783729 334.78745,4.996159 279.73119,5.337129 c -11.16425,-0.0594 -22.313,0.82059 -33.32555,2.64053 -23.60448,3.67757 -46.42849,11.22216 -67.53739,22.325049 -11.74275,6.135792 -22.85065,13.398885 -33.16383,21.684873 -6.25231,4.987194 -12.20609,10.330808 -17.83284,16.003738 -4.27637,4.400885 -8.79501,8.56142 -12.82983,13.202656 -4.03423,4.641237 -6.61655,7.602035 -9.76315,11.522932 -6.181067,7.824433 -11.815857,16.058803 -16.864697,24.645073 -6.83515,11.52412 -12.56224,23.66084 -17.106243,36.24853 -2.792284,7.64721 -5.136118,15.44872 -7.019757,23.36542 -1.936783,8.4815 -3.469941,17.04365 -4.680265,25.60515 -0.806928,5.20114 -0.887671,10.56286 -1.210414,16.00376 -0.111953,0.94667 -0.300673,1.88355 -0.564745,2.80097 v 16.00303 c 0.484139,1.12026 0,2.40086 0,3.60122 0.106013,6.51254 0.671671,13.0101 1.694507,19.44391 0.882051,6.87171 2.175402,13.68529 3.873337,20.40465 0,1.36088 1.129215,2.64053 0,4.08134 -2.905059,3.44078 -5.890588,6.72114 -8.714767,10.24194 -4.300494,5.39868 -8.287657,11.03593 -11.94216,16.8838 -0.294276,0.37835 -0.454208,0.84202 -0.454208,1.32067 0,0.47811 0.159932,0.94192 0.454208,1.31986 3.227621,5.20128 6.293892,10.56285 9.602119,16.00376 9.300531,14.49418 19.514735,28.39195 30.581748,41.6095 6.53598,8.00152 13.3136,15.20346 20.172327,22.72499 3.30827,3.52071 6.85873,6.88158 10.40918,10.16193 3.55046,3.28109 8.06906,7.60205 12.18444,11.2826 5.6484,5.04144 11.45784,9.7626 17.34843,14.56364 7.58468,6.08132 15.33103,11.8425 23.40008,17.28399 8.06905,5.44091 16.13811,10.64205 24.20716,15.44313 0.67459,0.53875 1.51447,0.83366 2.38039,0.83366 0.86592,0 1.70588,-0.29382 2.38039,-0.83366 8.71015,-5.62428 16.82074,-12.11255 24.2072,-19.36403 0.64539,-0.56013 1.21032,-1.28024 2.09795,-0.88004 1.50825,0.44735 3.04438,0.79441 4.59911,1.03942 7.72716,1.91152 15.57011,3.32815 23.48124,4.24118 5.80944,0.71947 11.78054,0.80035 17.75164,1.20032 1.85577,0 3.71153,0 5.48674,0 1.63588,-0.18187 3.28661,-0.18187 4.92249,0 1.85572,-0.48048 3.71149,0 5.48674,0 5.00296,0 9.92477,-0.48048 14.84722,-1.04061 11.99553,-1.3428 23.86654,-3.61726 35.50337,-6.80166 18.5656,-5.15357 36.34393,-12.77106 52.85244,-22.64511 19.17631,-11.40886 36.48266,-25.65656 51.31937,-42.24933 24.43997,-25.53085 42.32421,-56.51992 52.14137,-90.34962 9.81703,-33.82979 11.2789,-69.50593 4.26079,-104.01384 z M 409.4004,358.9364 c -23.7779,24.40533 -54.24052,41.37344 -87.62985,48.81076 -15.58931,3.81613 -31.6432,5.43282 -47.68776,4.80094 -44.88374,-1.22266 -87.69429,-18.99723 -120.06714,-49.85064 -28.85273,-26.44516 -48.27621,-61.45849 -55.353587,-99.78266 -5.92093,-27.82826 -5.25694,-56.63827 1.939377,-84.16983 7.19633,-27.53095 20.72858,-53.03337 39.53509,-74.50584 25.62749,-30.003562 60.8094,-50.439701 99.73372,-57.932804 14.08914,-3.06034 28.51455,-4.324058 42.92703,-3.760822 40.01511,1.108401 78.5158,15.412317 109.41631,40.649177 32.25085,25.598389 54.96775,61.135259 64.55182,100.982509 3.59268,14.8002 5.30035,29.98867 5.08353,45.21013 0.34271,48.38333 -18.49313,94.96422 -52.44854,129.70878 z"
+       fill="url(#paint9_linear)"
+       style="mix-blend-mode:normal;fill:#1e1e1e;fill-opacity:1;stroke-width:0.520836"
+       id="path1778" />
+    <path
+       style="mix-blend-mode:normal;fill:#1e1e1e;fill-opacity:1;stroke-width:0.520836"
+       d="m 344.20729,383.30105 c 5.5439,-1.14818 10.65565,-3.80513 14.7625,-7.67236 2.19,-2.3361 3.74716,-5.18412 4.52609,-8.2787 0.77959,-3.0951 0.75431,-6.33503 -0.0705,-9.41733 -0.82603,-3.0829 -2.42686,-5.90775 -4.65235,-8.21107 -2.22481,-2.30251 -5.00253,-4.00914 -8.07314,-4.95875 -4.44754,-1.13771 -8.48414,-3.49042 -11.64963,-6.79038 -3.5218,-3.81209 -6.18897,-8.32027 -7.82601,-13.22861 -2.65897,-6.47093 -7.44165,-11.86269 -13.57402,-15.30332 -6.13302,-3.44121 -13.25654,-4.72941 -20.21972,-3.65696 -4.76154,0.8585 -9.26302,2.78325 -13.16167,5.62644 -3.89935,2.84333 -7.09355,6.53037 -9.33946,10.78139 -2.24666,4.25154 -3.4864,8.95436 -3.62428,13.75221 -0.13849,4.79704 0.82814,9.56266 2.82621,13.93435 4.45646,10.79565 12.09537,20.00604 21.91684,26.42587 9.82212,6.41972 21.36931,9.74971 33.13089,9.5552 5.1384,-0.0403 10.23987,-0.8664 15.11749,-2.46925 z"
+       id="path10601" />
+    <path
+       style="mix-blend-mode:normal;fill:#1e1e1e;fill-opacity:1;stroke-width:0.520836"
+       d="m 278.63507,55.07634 c 38.45018,-0.0041 75.75148,12.996456 105.74482,36.854884 29.99269,23.858286 50.88277,57.147526 59.22009,94.369546 9.86856,41.07364 3.90551,84.32086 -16.71831,121.26026 -2.09921,4.44748 -4.694,8.64796 -7.73732,12.52279 -4.37583,4.9875 -9.99688,8.74751 -16.29917,10.90337 -6.30234,2.15651 -13.06477,2.63374 -19.6115,1.38307 -6.5467,-1.25042 -12.64699,-4.18325 -17.6911,-8.50664 -5.04421,-4.32325 -8.85484,-9.88418 -11.05028,-16.12643 -5.02161,-14.62526 -15.61994,-26.71867 -29.52433,-33.68794 -9.89314,-5.25094 -21.0328,-7.75233 -32.24141,-7.24035 -11.20857,0.51247 -22.06904,4.01956 -31.43242,10.15052 -12.44417,7.27375 -26.40118,11.62913 -40.80329,12.73169 -14.40277,1.1023 -28.86833,-1.07607 -42.29082,-6.36993 -13.42244,-5.29339 -25.44615,-13.56173 -35.15083,-24.17165 -9.70543,-10.61058 -16.83444,-23.28148 -20.84167,-37.0439 -3.88909,-12.50913 -5.18478,-25.66944 -3.80921,-38.68843 1.37556,-13.019 5.39367,-25.6271 11.81274,-37.06576 11.57313,-22.71066 28.26011,-42.47718 48.76992,-57.769474 20.5099,-15.29216 44.29171,-25.700753 69.50714,-30.419304 3.55736,-0.79429 7.20345,-1.234687 10.84955,-1.675216 6.39101,-0.917493 12.83946,-1.387906 19.2974,-1.411106 z"
+       id="path1780" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;white-space:pre;shape-inside:url(#path10601);fill:#ff0000;stroke-width:0.520833;"
+       x="539.97913"
+       y="380.55457"
+       id="text10556"><tspan
+         x="299.63461"
+         y="315.78121"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff">I </tspan></tspan><tspan
+         x="277.50517"
+         y="329.67009"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff">am sorry, </tspan></tspan><tspan
+         x="279.45602"
+         y="343.55898"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff">this text </tspan></tspan><tspan
+         x="282.24944"
+         y="357.44786"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff">COMPFEST12 is </tspan></tspan><tspan
+         x="295.8457"
+         y="371.33675"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ffffff">not a flag.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;white-space:pre;shape-inside:url(#path1780);fill:#ffffff;stroke-width:0.520833;"
+       x="606.23907"
+       y="4.6558056"
+       id="text3596"><tspan
+         x="210.04303"
+         y="79.328287"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">COMPFEST is an annual one </tspan></tspan><tspan
+         x="190.60276"
+         y="93.217165"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">stop IT event run by students of </tspan></tspan><tspan
+         x="176.72673"
+         y="107.10604"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">the Faculty of Computer Science, Uni-</tspan></tspan><tspan
+         x="154.55634"
+         y="120.99492"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">versity of Indonesia. As the biggest IT event </tspan></tspan><tspan
+         x="149.016"
+         y="134.8838"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">run by students, it has been held anually since </tspan></tspan><tspan
+         x="137.97211"
+         y="148.77268"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">its very first event in 2009. Since then, it has e-</tspan></tspan><tspan
+         x="137.91232"
+         y="162.66155"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">volved to become a core part in Faculty of Computer </tspan></tspan><tspan
+         x="121.4999"
+         y="176.55042"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">Science's culture. Every year, we strive to deliver a di-</tspan></tspan><tspan
+         x="127.75354"
+         y="190.43929"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">fferent core message and theme, making it distinct from </tspan></tspan><tspan
+         x="121.0146"
+         y="204.32816"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">one another. Oh, this is the flag COMPFEST12{M4th_iS_3very </tspan></tspan><tspan
+         x="129.02443"
+         y="218.21703"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">VV1-1Ere_eVeN_in_ArT_6fb61ea0}. Let me explain more, The </tspan></tspan><tspan
+         x="129.02373"
+         y="232.1059"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">12th COMPFEST has arrived to deliver technological break-</tspan></tspan><tspan
+         x="135.01726"
+         y="245.99477"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">through with a series of Academy, Competition, and Event </tspan></tspan><tspan
+         x="158.90697"
+         y="259.88364"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">We have collaborated with major companies to help </tspan></tspan><tspan
+         x="177.08682"
+         y="273.77251"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">introduce the </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">latest technology. </tspan></tspan><tspan
+         x="353.8744"
+         y="287.66139"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">trends to our </tspan></tspan><tspan
+         x="354.80851"
+         y="301.55028"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">participants.
+</tspan></tspan><tspan
+         x="364.62377"
+         y="315.43917"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">ᕦ</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">(</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">ò_óˇ</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">)</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.520833">ᕤ</tspan></tspan></text>
+  </g>
+</svg>

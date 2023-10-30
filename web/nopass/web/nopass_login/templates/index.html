@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>NoPass</title>
+{% endblock %}
+
+{% block content %}
+  {% if username == "" %}
+    <style>
+    .console{font-family:VT323,monospace;width:100%;height:450px;box-sizing:border-box;margin:auto}.console header{border-top-left-radius:5px;border-top-right-radius:5px;background-color:#555;height:45px;line-height:45px;font-size:28px;text-align:center;color:#ddd}.console .consolebody{border-bottom-left-radius:5px;border-bottom-right-radius:5px;box-sizing:border-box;padding:20px;height:calc(100% - 40px);background-color:#000;color:#63de00}
+    </style>
+    <div class="console">
+      <header>
+        orangkeren@compfest12
+      </header>
+      <div class="consolebody">
+        <div id="hero" class="cmd-text">>&nbsp;</span></div>
+      </div>
+    </div>
+  {% else %}
+    <div class="cmd-text">
+      <div id="hero" style="font-size:24px">&gt;&nbsp;</div>
+      <div id="welcome-msg" style="color:#63de00;">&nbsp;</div>
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% block script%}
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+  {% if username == "" %}
+  <script>
+    new TypeIt("#hero", {
+        speed: 100,
+        startDelay: 900
+    }).type("are oyu tured ", {delay: 100})
+      .move(-4, {delay: 400}).delete(6)
+      .type("you ti", {delay: 100}).move("END")
+      .type("typing password?", {delay: 1000}).move(-10)
+      .delete(6).type("or remembering", {delay: 100})
+      .move(-11).delete(3).move("END", {delay: 1000})
+      .delete(35).type("NoPass is Answer!", {delay: 100})
+      .move(-6).delete(1).type("the a").move("END").go();
+  </script>
+  {% else %}
+  <script>
+    new TypeIt("#hero", {
+        speed: 100,
+        startDelay: 900,
+        afterComplete: async (step, instance) => {
+          document.getElementById("welcome-msg").innerHTML = "Welcome {{ username }}!";
+        } 
+    }).type("echo \"Welcome $(whoami)!\"", {delay: 300})
+      .go();
+  </script>
+  {% endif %}
+{% endblock %}

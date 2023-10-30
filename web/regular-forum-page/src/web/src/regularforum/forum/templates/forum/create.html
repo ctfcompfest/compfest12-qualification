@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Create Forum{% endblock %}
+{% block content %}
+{% if limited %}
+<div class="ratelim">
+    <p>You already have posted a new forum less than a minute ago.</p>
+</div>
+{% endif %}
+<h2>Create new forum</h2>
+<div class="forumform">
+    <form action="{% url 'createForum' %}" method="POST">
+        {% csrf_token %}
+        <label for="title">Subject:</label>
+        <input type="text" name="title" size="25"required><br>
+        <label for="forumText">Contents:</label><br>
+        <textarea type="text" name="forumText" rows="10" cols="80" required></textarea><br>
+        <input type="submit">
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./web
+    restart: always
+    ports:
+      - "2600:8080"
+  # bot:
+  #   build: ./bot
+  #   restart: always
+  #   environment:
+  #     - DOMAIN=3.0.58.217:2600
+  #     - PASSWORD=6fjvyW7pLjU2&062@N0d@M%T*

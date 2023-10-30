@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+View | CodeBackup
+{% endblock %}
+
+{% block body %}
+<div class="card">
+    <div class="card-body">
+        <pre>{{ file_content }}</pre>        
+    </div>
+</div>
+
+{% endblock %}

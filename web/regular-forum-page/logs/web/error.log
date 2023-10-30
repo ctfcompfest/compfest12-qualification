@@ -1,0 +1,2 @@
+2021/07/19 04:00:39 [crit] 10#10: *1 connect() to unix:/run/gunicorn.sock failed (2: No such file or directory) while connecting to upstream, client: 172.31.0.1, server: , request: "GET /logout HTTP/1.1", upstream: "http://unix:/run/gunicorn.sock:/logout", host: "192.168.1.12:8000"
+2021/07/19 04:00:40 [crit] 10#10: *1 connect() to unix:/run/gunicorn.sock failed (2: No such file or directory) while connecting to upstream, client: 172.31.0.1, server: , request: "GET /login HTTP/1.1", upstream: "http://unix:/run/gunicorn.sock:/login", host: "192.168.1.12:8000"

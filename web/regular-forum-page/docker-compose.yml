@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./src/web
+    ports:
+      - "8000:80"
+    volumes: 
+      - ./logs/web/:/var/log/nginx/
+  bot:
+    build: ./src/bot
+    command: phantomjs --ignore-ssl-errors=true --local-to-remote-url-access=true --web-security=false --ssl-protocol=any bot.js
+    environment:
+      - DOMAIN=192.168.1.12
+      - PORT=8000

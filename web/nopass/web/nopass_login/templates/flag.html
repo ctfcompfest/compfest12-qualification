@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Flag | NoPass</title>
+{% endblock %}
+
+
+{% block content %}
+  <div class="cmd-text">
+    <div id="hero" style="font-size:24px">&gt;&nbsp;</div>
+    <div id="flag" style="color:#63de00;">&nbsp;</div>
+  </div>
+{% endblock %}
+
+{% block script%}
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+  <script>
+    new TypeIt("#hero", {
+        speed: 100,
+        startDelay: 900,
+        afterComplete: async (step, instance) => {
+          {% if is_admin == True %}
+            document.getElementById("flag").innerHTML = "{{ token }}";
+          {% else %}
+            document.getElementById("flag").innerHTML = "Error: Permission Denied.";
+            document.getElementById("flag").style.color = "#FF6347";
+          {% endif %}
+        } 
+    }).type("cat /admin/flag.txt", {delay: 300})
+      .go();
+  </script>
+{% endblock %}

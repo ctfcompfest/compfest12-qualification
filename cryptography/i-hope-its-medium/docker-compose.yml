@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    mutual_friend:
+        build: .
+        restart: always
+        ports:
+          - 2007:1337
+        security_opt:
+          - seccomp:unconfined
+          - apparmor:unconfined
